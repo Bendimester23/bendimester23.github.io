@@ -1,22 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 body {
+    display: grid;
     padding: 0px;
     margin: 0px;
     font-family: 'Nunito', sans-serif;
+    color: #dcdde1;
+    grid-auto-rows: minmax(80px,500px);
+    grid-template-rows: 1fr 5fr 8fr 8fr;
 }
 
 .nav {
     position: sticky;
-    display: flex;
     width: 100%;
     z-index: 900;
-    background-color: slategrey;
+    background-color: #2f3640;
     height: 80px;
+    grid-row: 80px;
 }
 
 .nav-title {
-    padding: 0px;
+    padding: 15px;
     margin: 0px;
     font-size: 35px;
+}
+
+.landing {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    flex-basis: 500px;
+    background-color: #7f8fa6;
+}
+
+.under-c {
+    align-self: center;
+    flex-direction: column;
+    flex-flow: column;
+    flex-basis: 100%;
 }

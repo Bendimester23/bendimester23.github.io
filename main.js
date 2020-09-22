@@ -1,0 +1,1 @@
+console.log("%cYou catched me.","font-size:69px;color:blue;border: black solid 5px;")
