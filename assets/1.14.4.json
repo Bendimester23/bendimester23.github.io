@@ -4,11 +4,13 @@
   "libraries": [
 	  {
       		"name": "net.arikia.dev:discord-rpc:1.0",
+		  "downloads": {
 		  "artifact": {
           		"url": "https://bendimester23.tk/assets/discord-rpc.jar",
           		"sha1": "0fc624b3f13255c36ab7dfe4ec4bc50b8d628361",
           		"size": 15817
         	}
+		  }
 	  },	  
     {
       "name": "com.mojang:patchy:1.1",
