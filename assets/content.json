@@ -1,0 +1,40 @@
+{
+  "mods": [
+    {
+      "name": "FoamFix",
+      "fileName": "foamfix-0.12.1",
+      "url": "https://bendimester23.tk/assets/mods/foamfix-0.12.1.jar",
+      "sha1": "0ba1163855c9f68e898a06c2175777b908459e42"
+    },
+    {
+      "name": "Fabric API",
+      "fileName": "fabric-api-0.15.1+build.260-1.14",
+      "url": "https://bendimester23.tk/assets/mods/fabric-api-0.15.1+build.260-1.14.jar",
+      "sha1": "dee2680a07e77002e7d7e783bfb913aa03ca6a21"
+    },
+    {
+      "name": "Lithium",
+      "fileName": "lithium-mc1.14.4-fabric-0.2.1",
+      "url": "https://bendimester23.tk/assets/mods/lithium-mc1.14.4-fabric-0.2.1.jar",
+      "sha1": "991267210ee4391b696b68e94a430fb796021e05"
+    },
+    {
+      "name": "OptiFabric",
+      "fileName": "optifabric-0.7.1",
+      "url": "https://bendimester23.tk/assets/mods/optifabric-0.7.1.jar",
+      "sha1": "ed7709d4a39a74efa944cce2b9800da81dda2fdc"
+    },
+    {
+      "name": "OptiFine",
+      "fileName": "OptiFine_1.14.4_HD_U_F5",
+      "url": "https://bendimester23.tk/assets/mods/OptiFine_1.14.4_HD_U_F5.jar",
+      "sha1": "3408258990309de773cc5a8ab71cb4137718a82b"
+    },
+    {
+      "name": "Phosphor",
+      "fileName": "phosphor-mc1.14.4-fabric-0.3.6",
+      "url": "https://bendimester23.tk/assets/mods/phosphor-mc1.14.4-fabric-0.3.6.jar",
+      "sha1": "572c9df3653eb5d601d5b6f32fb033157c0383a2"
+    }
+  ]
+}
