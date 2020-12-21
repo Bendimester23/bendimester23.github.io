@@ -35,6 +35,24 @@
       "fileName": "phosphor-mc1.14.4-fabric-0.3.6",
       "url": "https://bendimester23.tk/assets/mods/phosphor-mc1.14.4-fabric-0.3.6.jar",
       "sha1": "572c9df3653eb5d601d5b6f32fb033157c0383a2"
+    },
+    {
+      "name": "Orderly",
+      "fileName": "orderly-1.0.0+build.5",
+      "url": "https://bendimester23.tk/assets/mods/orderly-1.0.0+build.5.jar",
+      "sha1": "7223b964f88fc70da9841e5a643911503b89b568"
+    },
+    {
+      "name": "Dynamic FPS",
+      "fileName": "dynamic-fps-1.0.1",
+      "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.0.1.jar",
+      "sha1": "031219ce9cfd30a822f2115fc6a1d5920e3b6015"
+    },
+    {
+      "name": "Damage Tilt",
+      "fileName": "DamageTilt-1.14-fabric-0.1.0",
+      "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.14-fabric-0.1.0.jar",
+      "sha1": "274957e5b2224882928a0ed0f2a21291b9041444"
     }
   ]
 }
