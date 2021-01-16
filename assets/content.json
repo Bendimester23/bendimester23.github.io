@@ -89,6 +89,12 @@
       "fileName": "modmenu-1.14.13+build.19",
       "url": "https://bendimester23.tk/assets/mods/modmenu-1.14.13+build.19.jar",
       "sha1": "A9BB699D905D2A0B95ABBE10E1C637EEDD2EE16C"
+    },
+    {
+      "name": "BetterF3",
+      "fileName": "betterf3-1.1.2+1.16.2",
+      "url": "https://bendimester23.tk/assets/mods/betterf3-1.1.2+1.16.2.jar",
+      "sha1": "A9BB699D905D2A0B95ABBE10E1C637EEDD2EE16C"
     }
   ]
 }
