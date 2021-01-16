@@ -83,6 +83,12 @@
       "fileName": "lithium-fabric-mc1.16.4-0.6.0",
       "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.4-0.6.0.jar",
       "sha1": "A9BB699D905D2A0B95ABBE10E1C637EEDD2EE16C"
+    },
+    {
+      "name": "Modmenu",
+      "fileName": "modmenu-1.14.13+build.19",
+      "url": "https://bendimester23.tk/assets/mods/modmenu-1.14.13+build.19.jar",
+      "sha1": "A9BB699D905D2A0B95ABBE10E1C637EEDD2EE16C"
     }
   ]
 }
