@@ -1,5 +1,5 @@
 {
-  "id": "1.14.4",
+  "id": "1.16.5",
   "type": "release",
   "libraries": [
     {
@@ -143,21 +143,21 @@
       }
     },
     {
-      "name": "net.fabricmc:intermediary:1.14.4",
+      "name": "net.fabricmc:intermediary:1.16.5",
       "downloads": {
         "artifact": {
-          "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.14.4/intermediary-1.14.4.jar",
-          "sha1": "f8613a7dc1dc128acf47623cd46b91a38e91ae98",
+          "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.16.5/intermediary-1.16.5.jar",
+          "sha1": "f67ca1c57db2c12efbcc73df312efe879b6e49af",
           "size": 30973
         }
       }
     },
     {
-      "name": "net.fabricmc:fabric-loader:0.10.6+build.214",
+      "name": "net.fabricmc:fabric-loader:0.11.1",
       "downloads": {
         "artifact": {
-          "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.10.6%2Bbuild.214/fabric-loader-0.10.6%2Bbuild.214.jar",
-          "sha1": "1ff91723e53241aa81e921d781ccb50c96a81572",
+          "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.11.1/fabric-loader-0.11.1.jar",
+          "sha1": "d944def3134aa24883896b3a7741a0b4741a7b6b",
           "size": 30973
         }
       }
@@ -183,12 +183,12 @@
       }
     },
     {
-      "name": "com.ibm.icu:icu4j-core-mojang:51.2",
+      "name": "com.ibm.icu:icu4j:66.1",
       "downloads": {
         "artifact": {
-          "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j-core-mojang/51.2/icu4j-core-mojang-51.2.jar",
-          "sha1": "63d216a9311cca6be337c1e458e587f99d382b84",
-          "size": 1634692
+          "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/66.1/icu4j-66.1.jar",
+          "sha1": "72c7519b6d91f7a1f993bd44a99fe95d67211b27",
+          "size": 12935630
         }
       }
     },
@@ -293,12 +293,12 @@
       }
     },
     {
-      "name": "com.mojang:datafixerupper:2.0.24",
+      "name": "com.mojang:datafixerupper:4.0.26",
       "downloads": {
         "artifact": {
-          "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/2.0.24/datafixerupper-2.0.24.jar",
-          "sha1": "0944c24a8519981847ffb36c6dcd059d96fcb4b0",
-          "size": 436066
+          "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.0.26/datafixerupper-4.0.26.jar",
+          "sha1": "ebd6690f33871ccee9b6132c6480668ee2e35020",
+          "size": 673183
         }
       }
     },
@@ -313,12 +313,12 @@
       }
     },
     {
-      "name": "com.mojang:authlib:1.5.25",
+      "name": "com.mojang:authlib:2.1.28",
       "downloads": {
         "artifact": {
-          "url": "https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25.jar",
-          "sha1": "9834cdf236c22e84b946bba989e2f94ef5897c3c",
-          "size": 65621
+          "url": "https://libraries.minecraft.net/com/mojang/authlib/2.1.28/authlib-2.1.28.jar",
+          "sha1": "ad54da276bf59983d02d5ed16fc14541354c71fd",
+          "size": 76328
         }
       }
     },
@@ -551,6 +551,97 @@
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
           "sha1": "3b8e6ebc5851dd3d17e37e5cadce2eff2a429f0f",
           "size": 104469
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+      "onlyIn": [
+        "OSX"
+      ],
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+          "sha1": "259f1dbddb921e27e01b32458d6f584eb8bba13a",
+          "size": 7088
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+          "sha1": "fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9",
+          "size": 7092
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
+      "natives": {
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      },
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+          "sha1": "fcbe606c8f8da6f8f9a05e2c540eb1ee8632b0e9",
+          "size": 7092
+        },
+        "natives-linux": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar",
+          "sha1": "39e35b161c130635d9c8918ce04e887a30c5b687",
+          "size": 38804
+        },
+        "natives-macos": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-macos.jar",
+          "sha1": "46d0798228b8a28e857a2a0f02310fd6ba2a4eab",
+          "size": 42136
+        },
+        "natives-windows": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar",
+          "sha1": "e9115958773644e863332a6a06488d26f9e1fc9f",
+          "size": 208314
+        }
+      }
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+      "onlyIn": [
+        "OSX"
+      ],
+      "natives": {
+        "osx": "natives-macos"
+      },
+      "downloads": {
+        "artifact": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+          "sha1": "259f1dbddb921e27e01b32458d6f584eb8bba13a",
+          "size": 7088
+        },
+        "natives-linux": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-linux.jar",
+          "sha1": "4ad49108397322596d7b85c2c687e5de6ee52157",
+          "size": 38192
+        },
+        "natives-macos": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-macos.jar",
+          "sha1": "759c2fd9cc5c6ce0b5b7af77ac8200483b7fb660",
+          "size": 41962
+        },
+        "natives-windows": {
+          "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-windows.jar",
+          "sha1": "85750d2ca022852e15f58c0b94b3d1d4e7f0ba52",
+          "size": 207577
         }
       }
     },
@@ -1013,18 +1104,18 @@
     }
   ],
   "mainClass": "net.fabricmc.loader.launch.knot.KnotClient",
-  "assets": "1.14",
+  "assets": "1.16",
   "client": {
-    "url": "https://launcher.mojang.com/v1/objects/8c325a0c5bd674dd747d6ebaa4c791fd363ad8a9/client.jar",
-    "sha1": "8c325a0c5bd674dd747d6ebaa4c791fd363ad8a9",
-    "size": 25191691
+    "url": "https://launcher.mojang.com/v1/objects/37fd3c903861eeff3bc24b71eed48f828b5269c8/client.jar",
+    "sha1": "37fd3c903861eeff3bc24b71eed48f828b5269c8",
+    "size": 17547153
   },
   "assetIndex": {
-    "totalSize": 209234283,
-    "id": "1.14",
+    "totalSize": 330604420,
+    "id": "1.16",
     "known": true,
-    "url": "https://launchermeta.mojang.com/v1/packages/d6c94fad4f7a03a8e46083c023926515fc0e551e/1.14.json",
-    "sha1": "d6c94fad4f7a03a8e46083c023926515fc0e551e",
-    "size": 226753
+    "url": "https://launchermeta.mojang.com/v1/packages/3a5d110a6ab102c7083bae4296d2de4b8fcf92eb/1.16.json",
+    "sha1": "3a5d110a6ab102c7083bae4296d2de4b8fcf92eb",
+    "size": 295421
   }
 }

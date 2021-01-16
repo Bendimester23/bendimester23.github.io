@@ -1,58 +1,88 @@
 {
   "mods": [
     {
-      "name": "FoamFix",
-      "fileName": "foamfix-0.12.1",
-      "url": "https://bendimester23.tk/assets/mods/foamfix-0.12.1.jar",
-      "sha1": "0ba1163855c9f68e898a06c2175777b908459e42"
-    },
-    {
-      "name": "Fabric API",
-      "fileName": "fabric-api-0.15.1+build.260-1.14",
-      "url": "https://bendimester23.tk/assets/mods/fabric-api-0.15.1+build.260-1.14.jar",
-      "sha1": "dee2680a07e77002e7d7e783bfb913aa03ca6a21"
-    },
-    {
-      "name": "Lithium",
-      "fileName": "lithium-mc1.14.4-fabric-0.2.1",
-      "url": "https://bendimester23.tk/assets/mods/lithium-mc1.14.4-fabric-0.2.1.jar",
-      "sha1": "991267210ee4391b696b68e94a430fb796021e05"
-    },
-    {
-      "name": "OptiFabric",
-      "fileName": "optifabric-0.7.1",
-      "url": "https://bendimester23.tk/assets/mods/optifabric-0.7.1.jar",
-      "sha1": "ed7709d4a39a74efa944cce2b9800da81dda2fdc"
-    },
-    {
-      "name": "OptiFine",
-      "fileName": "OptiFine_1.14.4_HD_U_F5",
-      "url": "https://bendimester23.tk/assets/mods/OptiFine_1.14.4_HD_U_F5.jar",
-      "sha1": "3408258990309de773cc5a8ab71cb4137718a82b"
-    },
-    {
-      "name": "Phosphor",
-      "fileName": "phosphor-mc1.14.4-fabric-0.3.6",
-      "url": "https://bendimester23.tk/assets/mods/phosphor-mc1.14.4-fabric-0.3.6.jar",
-      "sha1": "572c9df3653eb5d601d5b6f32fb033157c0383a2"
-    },
-    {
-      "name": "Orderly",
-      "fileName": "orderly-1.0.0+build.5",
-      "url": "https://bendimester23.tk/assets/mods/orderly-1.0.0+build.5.jar",
-      "sha1": "7223b964f88fc70da9841e5a643911503b89b568"
+      "name": "Blur",
+      "fileName": "Blur-2.0.0-1.16.2+fabric",
+      "url": "https://bendimester23.tk/assets/mods/Blur-2.0.0-1.16.2+fabric.jar",
+      "sha1": "A5D801439E9989697B05B086BF9A1D431412652B"
     },
     {
       "name": "Dynamic FPS",
-      "fileName": "dynamic-fps-1.0.1",
-      "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.0.1.jar",
-      "sha1": "031219ce9cfd30a822f2115fc6a1d5920e3b6015"
+      "fileName": "dynamic-fps-1.2.1",
+      "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.2.1.jar",
+      "sha1": "2103FD47A4EE86087E908DF34EACDCB0BC271D09"
+    },
+    {
+      "name": "Fabric API",
+      "fileName": "fabric-api-0.29.3+1.16",
+      "url": "https://bendimester23.tk/assets/mods/fabric-api-0.29.3+1.16.jar",
+      "sha1": "9D823744956282C6877BDFA033E3EAB4A50CCCFF"
+    },
+    {
+      "name": "Better Grass",
+      "fileName": "lambdabettergrass-fabric-1.0.1+1.16.3",
+      "url": "https://bendimester23.tk/assets/mods/lambdabettergrass-fabric-1.0.1+1.16.3.jar",
+      "sha1": "B54DB0CC044A71B9EAC3D5DCD9E7DAC0ADC56444"
+    },
+    {
+      "name": "Dynamic Lights",
+      "fileName": "lambdynamiclights-fabric-1.3.2+1.16.4",
+      "url": "https://bendimester23.tk/assets/mods/lambdynamiclights-fabric-1.3.2+1.16.4.jar",
+      "sha1": "9A050E894BC9B661DB4240CC035584B8AA3BD4FB"
+    },
+    {
+      "name": "Lazy DFU",
+      "fileName": "lazydfu-0.1.0",
+      "url": "https://bendimester23.tk/assets/mods/lazydfu-0.1.0.jar",
+      "sha1": "9794C68FB28CC8DCD8CA1E6D1B2C3CC86FC9D9F0"
+    },
+    {
+      "name": "Mouse Wheely",
+      "fileName": "mousewheelie-1.6.2+mc1.16.4",
+      "url": "https://bendimester23.tk/assets/mods/mousewheelie-1.6.2+mc1.16.4.jar",
+      "sha1": "914197ECD590E8351140AF5334C354A6F9C081F9"
+    },
+    {
+      "name": "OK Zoomer",
+      "fileName": "okzoomer-4.0.1+1.16.2",
+      "url": "https://bendimester23.tk/assets/mods/okzoomer-4.0.1+1.16.2.jar",
+      "sha1": "60EE683E6A75DA17AB105EA65F89871352711AF6"
+    },
+    {
+      "name": "Phosphor",
+      "fileName": "phosphor-fabric-mc1.16.3-0.7.0+build.10",
+      "url": "https://bendimester23.tk/assets/mods/phosphor-fabric-mc1.16.3-0.7.0+build.10.jar",
+      "sha1": "69FB09EECC4D3E9E273A986228DF38BC4D8DD8A3"
+    },
+    {
+      "name": "Presence Footsteps",
+      "fileName": "PresenceFootsteps-r29+1.16.4",
+      "url": "https://bendimester23.tk/assets/mods/PresenceFootsteps-r29+1.16.4.jar",
+      "sha1": "F4A8B330FB1EBE38EDC1D2FD6554A5318CEDFA59"
+    },
+    {
+      "name": "Random Patches",
+      "fileName": "randompatches-2.1.8-fabric",
+      "url": "https://bendimester23.tk/assets/mods/randompatches-2.1.8-fabric.jar",
+      "sha1": "2FED7359D08E7BF6788BDED396F2B85435D7BEF8"
+    },
+    {
+      "name": "Sodium",
+      "fileName": "sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT",
+      "url": "https://bendimester23.tk/assets/mods/sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT.jar",
+      "sha1": "865654DF0E630AAC925EF1CF6FCD56A4518DED71"
     },
     {
       "name": "Damage Tilt",
-      "fileName": "DamageTilt-1.14-fabric-0.1.0",
-      "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.14-fabric-0.1.0.jar",
-      "sha1": "274957e5b2224882928a0ed0f2a21291b9041444"
+      "fileName": "DamageTilt-1.16-fabric-0.1.1",
+      "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.16-fabric-0.1.1.jar",
+      "sha1": "34F7F440B57FF8F219BE7504D6F52F7E2FF01D9A"
+    },
+    {
+      "name": "Lithium",
+      "fileName": "lithium-fabric-mc1.16.4-0.6.0",
+      "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.4-0.6.0.jar",
+      "sha1": "6AB1C5ADC97AB0C66F9C9AFCDB1D143A607DB82C"
     }
   ]
 }
