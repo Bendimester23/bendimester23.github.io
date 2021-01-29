@@ -1,20 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Bendimester23</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <style>
+        .container {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-color: #54a0ff;
+        }
+        
+        .container h1 {
+            position: absolute;
+            color: #fff;
+        }
+        
+        * {
+            font-family: 'Nunito', sans-serif;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="nav">
-        <h3 class="nav-title">
-            Bendimester23
-        </h3>
+    <div class="container">
+        <h1 id="text">Bendimester23</h1>
     </div>
-    <div class="landing">
-        <h1 class="under-c">Under construction...</h1>
-    </div>
-    <script src="./main.js"></script>
+    <script>
+        let vX = 0;
+        let vY = 0;
+        let pX = 0;
+        let pY = 0;
+        let wX = 0;
+        let wY = 0;
+
+        window.onload = function() {
+            const text = document.getElementById('text');
+            vX = 1;
+            vY = 1;
+            wX = window.innerWidth;
+            wY = window.innerHeight;
+            setInterval(() => {
+                pX += vX;
+                pY += vY;
+                text.style.top = pY + "px";
+                text.style.left = pX + "px";
+                if (pX > wX - 211 || pX < 0) vX = -vX;
+                if (pY > wY - 43 || pY < 0) vY = -vY;
+            }, 10);
+        }
+    </script>
 </body>
+
 </html>
