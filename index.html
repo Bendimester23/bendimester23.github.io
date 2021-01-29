@@ -40,9 +40,22 @@
         let pY = 0;
         let wX = 0;
         let wY = 0;
+        let colors = [
+            "#1dd1a1",
+            "#48dbfb",
+            "#ff6b6b",
+            "#feca57",
+            "#ff9ff3",
+            "#00d2d3",
+            "#54a0ff",
+            "#5f27cd",
+            "#c8d6e5",
+            "#576574"
+        ]
 
         window.onload = function() {
             const text = document.getElementById('text');
+            const back = document.getElementById('container')
             vX = 1;
             vY = 1;
             wX = window.innerWidth;
@@ -52,8 +65,14 @@
                 pY += vY;
                 text.style.top = pY + "px";
                 text.style.left = pX + "px";
-                if (pX > wX - 230 || pX < 0) vX = -vX;
-                if (pY > wY - 43 || pY < 0) vY = -vY;
+                if (pX > wX - 211 || pX < 0) {
+                    vX = -vX;
+                    back.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                }
+                if (pY > wY - 43 || pY < 0) {
+                    vY = -vY;
+                    back.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                }
             }, 10);
         }
     </script>
