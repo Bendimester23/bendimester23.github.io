@@ -1,100 +1,135 @@
 {
-  "mods": [
-    {
-      "name": "Blur",
-      "fileName": "Blur-2.0.0-1.16.2+fabric",
-      "url": "https://bendimester23.tk/assets/mods/Blur-2.0.0-1.16.2+fabric.jar",
-      "sha1": "A5D801439E9989697B05B086BF9A1D431412652B"
-    },
-    {
-      "name": "Dynamic FPS",
-      "fileName": "dynamic-fps-1.2.1",
-      "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.2.1.jar",
-      "sha1": "2103FD47A4EE86087E908DF34EACDCB0BC271D09"
-    },
-    {
-      "name": "Fabric API",
-      "fileName": "fabric-api-0.29.3+1.16",
-      "url": "https://bendimester23.tk/assets/mods/fabric-api-0.29.3+1.16.jar",
-      "sha1": "9D823744956282C6877BDFA033E3EAB4A50CCCFF"
-    },
-    {
-      "name": "Better Grass",
-      "fileName": "lambdabettergrass-fabric-1.0.1+1.16.3",
-      "url": "https://bendimester23.tk/assets/mods/lambdabettergrass-fabric-1.0.1+1.16.3.jar",
-      "sha1": "B54DB0CC044A71B9EAC3D5DCD9E7DAC0ADC56444"
-    },
-    {
-      "name": "Dynamic Lights",
-      "fileName": "lambdynamiclights-fabric-1.3.2+1.16.4",
-      "url": "https://bendimester23.tk/assets/mods/lambdynamiclights-fabric-1.3.2+1.16.4.jar",
-      "sha1": "9A050E894BC9B661DB4240CC035584B8AA3BD4FB"
-    },
-    {
-      "name": "Lazy DFU",
-      "fileName": "lazydfu-0.1.0",
-      "url": "https://bendimester23.tk/assets/mods/lazydfu-0.1.0.jar",
-      "sha1": "60E9A83E37B1914ECF413C13CA644A219BB52EEE"
-    },
-    {
-      "name": "Mouse Wheely",
-      "fileName": "mousewheelie-1.6.2+mc1.16.4",
-      "url": "https://bendimester23.tk/assets/mods/mousewheelie-1.6.2+mc1.16.4.jar",
-      "sha1": "914197ECD590E8351140AF5334C354A6F9C081F9"
-    },
-    {
-      "name": "OK Zoomer",
-      "fileName": "okzoomer-4.0.1+1.16.2",
-      "url": "https://bendimester23.tk/assets/mods/okzoomer-4.0.1+1.16.2.jar",
-      "sha1": "60EE683E6A75DA17AB105EA65F89871352711AF6"
-    },
-    {
-      "name": "Phosphor",
-      "fileName": "phosphor-fabric-mc1.16.3-0.7.0+build.10",
-      "url": "https://bendimester23.tk/assets/mods/phosphor-fabric-mc1.16.3-0.7.0+build.10.jar",
-      "sha1": "69FB09EECC4D3E9E273A986228DF38BC4D8DD8A3"
-    },
-    {
-      "name": "Presence Footsteps",
-      "fileName": "PresenceFootsteps-r29+1.16.4",
-      "url": "https://bendimester23.tk/assets/mods/PresenceFootsteps-r29+1.16.4.jar",
-      "sha1": "F4A8B330FB1EBE38EDC1D2FD6554A5318CEDFA59"
-    },
-    {
-      "name": "Random Patches",
-      "fileName": "randompatches-2.1.8-fabric",
-      "url": "https://bendimester23.tk/assets/mods/randompatches-2.1.8-fabric.jar",
-      "sha1": "27D496EAA6B49550D17D5154ACED2F531A7CC803"
-    },
-    {
-      "name": "Sodium",
-      "fileName": "sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT",
-      "url": "https://bendimester23.tk/assets/mods/sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT.jar",
-      "sha1": "865654DF0E630AAC925EF1CF6FCD56A4518DED71"
-    },
-    {
-      "name": "Damage Tilt",
-      "fileName": "DamageTilt-1.16-fabric-0.1.1",
-      "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.16-fabric-0.1.1.jar",
-      "sha1": "34F7F440B57FF8F219BE7504D6F52F7E2FF01D9A"
-    },
-    {
-      "name": "Lithium",
-      "fileName": "lithium-fabric-mc1.16.4-0.6.0",
-      "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.4-0.6.0.jar",
-      "sha1": "A9BB699D905D2A0B95ABBE10E1C637EEDD2EE16C"
-    },
-    {
-      "name": "Modmenu",
-      "fileName": "modmenu-1.14.13+build.19",
-      "url": "https://bendimester23.tk/assets/mods/modmenu-1.14.13+build.19.jar",
-      "sha1": "CD27307D1FA3282F6C3C11EE094A2D63593EC600"
-    },
-    {
-      "name": "BetterF3",
-      "fileName": "betterf3-1.1.2+1.16.2",
-      "url": "https://bendimester23.tk/assets/mods/betterf3-1.1.2+1.16.2.jar",
-      "sha1": "3B06B2F27FD2F5B19E3720DEE41F1CD5CEFD5FB0"
-    }
-  ]
+    "mods": [{
+            "name": "Lazydfu",
+            "fileName": "lazydfu-0.1.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/lazydfu-0.1.0.jar",
+            "sha1": "60e9a83e37b1914ecf413c13ca644a219bb52eee"
+        },
+        {
+            "name": "DamageTilt",
+            "fileName": "DamageTilt-1.16-fabric-0.1.1.jar",
+            "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.16-fabric-0.1.1.jar",
+            "sha1": "34f7f440b57ff8f219be7504d6f52f7e2ff01d9a"
+        },
+        {
+            "name": "Seamlessloadingscreen",
+            "fileName": "seamless-loading-screen-1.3.1+1.16.2.jar",
+            "url": "https://bendimester23.tk/assets/mods/seamless-loading-screen-1.3.1+1.16.2.jar",
+            "sha1": "1f81fb16571e3a3c4f4ed7c751744b5da2f5e749"
+        },
+        {
+            "name": "Starlight",
+            "fileName": "starlight-fabric-0.0.3.jar",
+            "url": "https://bendimester23.tk/assets/mods/starlight-fabric-0.0.3.jar",
+            "sha1": "65bd01f98ddb865b2f1977447483bcb768ce8c74"
+        },
+        {
+            "name": "Hydrogen",
+            "fileName": "hydrogen-fabric-mc1.16.5-0.2.jar",
+            "url": "https://bendimester23.tk/assets/mods/hydrogen-fabric-mc1.16.5-0.2.jar",
+            "sha1": "258be27079ef4ea4021191518d353e3d28ed1dc7"
+        },
+        {
+            "name": "Krypton",
+            "fileName": "krypton-0.1.1.jar",
+            "url": "https://bendimester23.tk/assets/mods/krypton-0.1.1.jar",
+            "sha1": "9ca430ee324264b938a43e6e77fc7e08122449f7"
+        },
+        {
+            "name": "Modmenu",
+            "fileName": "modmenu-1.14.13+build.19.jar",
+            "url": "https://bendimester23.tk/assets/mods/modmenu-1.14.13+build.19.jar",
+            "sha1": "cd27307d1fa3282f6c3c11ee094a2d63593ec600"
+        },
+        {
+            "name": "Ctm",
+            "fileName": "ctm-fabric-0.2.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/ctm-fabric-0.2.0.jar",
+            "sha1": "ff07a644d0578a060167deb2e2264f4659bd7ac9"
+        },
+        {
+            "name": "Lithiumfabricmc",
+            "fileName": "lithium-fabric-mc1.16.4-0.6.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.4-0.6.0.jar",
+            "sha1": "a9bb699d905d2a0b95abbe10e1c637eedd2ee16c"
+        },
+        {
+            "name": "Dynamicfps",
+            "fileName": "dynamic-fps-1.2.1.jar",
+            "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.2.1.jar",
+            "sha1": "2103fd47a4ee86087e908df34eacdcb0bc271d09"
+        },
+        {
+            "name": "Lambdynamiclights",
+            "fileName": "lambdynamiclights-fabric-1.3.2+1.16.4.jar",
+            "url": "https://bendimester23.tk/assets/mods/lambdynamiclights-fabric-1.3.2+1.16.4.jar",
+            "sha1": "9a050e894bc9b661db4240cc035584b8aa3bd4fb"
+        },
+        {
+            "name": "Loadio",
+            "fileName": "Loadio-1.0.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/Loadio-1.0.0.jar",
+            "sha1": "8498b9c766a8f5d6ca8ae5fda66342fd73d5dd5e"
+        },
+        {
+            "name": "Sodium",
+            "fileName": "sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT.jar",
+            "url": "https://bendimester23.tk/assets/mods/sodium-fabric-mc1.16.4-0.1.1-SNAPSHOT.jar",
+            "sha1": "865654df0e630aac925ef1cf6fcd56a4518ded71"
+        },
+        {
+            "name": "Okzoomer",
+            "fileName": "okzoomer-4.0.1+1.16.2.jar",
+            "url": "https://bendimester23.tk/assets/mods/okzoomer-4.0.1+1.16.2.jar",
+            "sha1": "60ee683e6a75da17ab105ea65f89871352711af6"
+        },
+        {
+            "name": "Blur",
+            "fileName": "Blur-2.0.0-1.16.2+fabric.jar",
+            "url": "https://bendimester23.tk/assets/mods/Blur-2.0.0-1.16.2+fabric.jar",
+            "sha1": "a5d801439e9989697b05b086bf9a1d431412652b"
+        },
+        {
+            "name": "Fabrication",
+            "fileName": "fabrication-1.3.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/fabrication-1.3.0.jar",
+            "sha1": "b4696ae2438d02af3dafbb08b1fc82b86b468a59"
+        },
+        {
+            "name": "Fabric Api",
+            "fileName": "fabric-api-0.29.3+1.16.jar",
+            "url": "https://bendimester23.tk/assets/mods/fabric-api-0.29.3+1.16.jar",
+            "sha1": "9d823744956282c6877bdfa033e3eab4a50cccff"
+        },
+        {
+            "name": "Randompatches",
+            "fileName": "randompatches-2.1.8-fabric.jar",
+            "url": "https://bendimester23.tk/assets/mods/randompatches-2.1.8-fabric.jar",
+            "sha1": "27d496eaa6b49550d17d5154aced2f531a7cc803"
+        },
+        {
+            "name": "Mousewheelie",
+            "fileName": "mousewheelie-1.6.2+mc1.16.4.jar",
+            "url": "https://bendimester23.tk/assets/mods/mousewheelie-1.6.2+mc1.16.4.jar",
+            "sha1": "914197ecd590e8351140af5334c354a6f9c081f9"
+        },
+        {
+            "name": "Fedora",
+            "fileName": "fedora-1.1.1-fabric-1.16.4.jar",
+            "url": "https://bendimester23.tk/assets/mods/fedora-1.1.1-fabric-1.16.4.jar",
+            "sha1": "de202f0ca405c057b7de172c73077a6c11a36ed8"
+        },
+        {
+            "name": "RoughlyEnoughItems",
+            "fileName": "RoughlyEnoughItems-5.8.7.jar",
+            "url": "https://bendimester23.tk/assets/mods/RoughlyEnoughItems-5.8.7.jar",
+            "sha1": "d69168f58cef351607dea719f4f45624f73a3213"
+        },
+        {
+            "name": "PresenceFootsteps",
+            "fileName": "PresenceFootsteps-r29+1.16.4.jar",
+            "url": "https://bendimester23.tk/assets/mods/PresenceFootsteps-r29+1.16.4.jar",
+            "sha1": "f4a8b330fb1ebe38edc1d2fd6554a5318cedfa59"
+        }
+    ]
 }
