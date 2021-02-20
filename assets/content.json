@@ -1,18 +1,18 @@
 {
     "mods": [{
-            "name": "Lazydfu",
-            "fileName": "lazydfu-0.1.0.jar",
-            "url": "https://bendimester23.tk/assets/mods/lazydfu-0.1.0.jar",
-            "sha1": "60e9a83e37b1914ecf413c13ca644a219bb52eee"
-        },
-        {
             "name": "DamageTilt",
             "fileName": "DamageTilt-1.16-fabric-0.1.1.jar",
             "url": "https://bendimester23.tk/assets/mods/DamageTilt-1.16-fabric-0.1.1.jar",
             "sha1": "34f7f440b57ff8f219be7504d6f52f7e2ff01d9a"
         },
         {
-            "name": "Seamlessloadingscreen",
+            "name": "Lazydfu",
+            "fileName": "lazydfu-0.1.2.jar",
+            "url": "https://bendimester23.tk/assets/mods/lazydfu-0.1.2.jar",
+            "sha1": "2efec5781f1271bdcdae462eee402ccb97bff6fe"
+        },
+        {
+            "name": "Seamless loading screen",
             "fileName": "seamless-loading-screen-1.3.1+1.16.2.jar",
             "url": "https://bendimester23.tk/assets/mods/seamless-loading-screen-1.3.1+1.16.2.jar",
             "sha1": "1f81fb16571e3a3c4f4ed7c751744b5da2f5e749"
@@ -24,6 +24,12 @@
             "sha1": "65bd01f98ddb865b2f1977447483bcb768ce8c74"
         },
         {
+            "name": "Sodium Extra",
+            "fileName": "sodium-extra-0.1.0.jar",
+            "url": "https://bendimester23.tk/assets/mods/sodium-extra-0.1.0.jar",
+            "sha1": "5fbb6a3e18fae2b5fb801e5d9151ada5194b78b2"
+        },
+        {
             "name": "Hydrogen",
             "fileName": "hydrogen-fabric-mc1.16.5-0.2.jar",
             "url": "https://bendimester23.tk/assets/mods/hydrogen-fabric-mc1.16.5-0.2.jar",
@@ -31,15 +37,9 @@
         },
         {
             "name": "Krypton",
-            "fileName": "krypton-0.1.1.jar",
-            "url": "https://bendimester23.tk/assets/mods/krypton-0.1.1.jar",
-            "sha1": "9ca430ee324264b938a43e6e77fc7e08122449f7"
-        },
-        {
-            "name": "Modmenu",
-            "fileName": "modmenu-1.14.13+build.19.jar",
-            "url": "https://bendimester23.tk/assets/mods/modmenu-1.14.13+build.19.jar",
-            "sha1": "cd27307d1fa3282f6c3c11ee094a2d63593ec600"
+            "fileName": "krypton-0.1.2.jar",
+            "url": "https://bendimester23.tk/assets/mods/krypton-0.1.2.jar",
+            "sha1": "785618b9a11a7b267659a5583804fcaf20cd14d4"
         },
         {
             "name": "Ctm",
@@ -48,22 +48,16 @@
             "sha1": "ff07a644d0578a060167deb2e2264f4659bd7ac9"
         },
         {
-            "name": "Lithiumfabricmc",
-            "fileName": "lithium-fabric-mc1.16.4-0.6.0.jar",
-            "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.4-0.6.0.jar",
-            "sha1": "a9bb699d905d2a0b95abbe10e1c637eedd2ee16c"
+            "name": "Lithium",
+            "fileName": "lithium-fabric-mc1.16.5-0.6.3.jar",
+            "url": "https://bendimester23.tk/assets/mods/lithium-fabric-mc1.16.5-0.6.3.jar",
+            "sha1": "5acd33822982835ca8c7d9abfea00a5088d3800d"
         },
         {
-            "name": "Dynamicfps",
-            "fileName": "dynamic-fps-1.2.1.jar",
-            "url": "https://bendimester23.tk/assets/mods/dynamic-fps-1.2.1.jar",
-            "sha1": "2103fd47a4ee86087e908df34eacdcb0bc271d09"
-        },
-        {
-            "name": "Lambdynamiclights",
-            "fileName": "lambdynamiclights-fabric-1.3.2+1.16.4.jar",
-            "url": "https://bendimester23.tk/assets/mods/lambdynamiclights-fabric-1.3.2+1.16.4.jar",
-            "sha1": "9a050e894bc9b661db4240cc035584b8aa3bd4fb"
+            "name": "Modmenu",
+            "fileName": "modmenu-1.16.7.jar",
+            "url": "https://bendimester23.tk/assets/mods/modmenu-1.16.7.jar",
+            "sha1": "63da238680e21e125ce85ebebc82c06677e8548f"
         },
         {
             "name": "Loadio",
@@ -96,22 +90,34 @@
             "sha1": "b4696ae2438d02af3dafbb08b1fc82b86b468a59"
         },
         {
-            "name": "Fabric Api",
-            "fileName": "fabric-api-0.29.3+1.16.jar",
-            "url": "https://bendimester23.tk/assets/mods/fabric-api-0.29.3+1.16.jar",
-            "sha1": "9d823744956282c6877bdfa033e3eab4a50cccff"
-        },
-        {
-            "name": "Randompatches",
-            "fileName": "randompatches-2.1.8-fabric.jar",
-            "url": "https://bendimester23.tk/assets/mods/randompatches-2.1.8-fabric.jar",
-            "sha1": "27d496eaa6b49550d17d5154aced2f531a7cc803"
-        },
-        {
             "name": "Mousewheelie",
             "fileName": "mousewheelie-1.6.2+mc1.16.4.jar",
             "url": "https://bendimester23.tk/assets/mods/mousewheelie-1.6.2+mc1.16.4.jar",
             "sha1": "914197ecd590e8351140af5334c354a6f9c081f9"
+        },
+        {
+            "name": "Randompatches",
+            "fileName": "randompatches-2.4.2-fabric.jar",
+            "url": "https://bendimester23.tk/assets/mods/randompatches-2.4.2-fabric.jar",
+            "sha1": "f934bfce45114d1d21fc26eaaf692c6f7bbe58fa"
+        },
+        {
+            "name": "Lambdynamiclights",
+            "fileName": "lambdynamiclights-fabric-1.3.4+1.16.jar",
+            "url": "https://bendimester23.tk/assets/mods/lambdynamiclights-fabric-1.3.4+1.16.jar",
+            "sha1": "3fff986f77f6a9d8243e55048090b7cad4377de7"
+        },
+        {
+            "name": "Dynamic Fps",
+            "fileName": "dynamic-fps-2.0.1.jar",
+            "url": "https://bendimester23.tk/assets/mods/dynamic-fps-2.0.1.jar",
+            "sha1": "672904fc5332f7064db872635549b63a10444f59"
+        },
+        {
+            "name": "Fabric API",
+            "fileName": "fabric-api-0.30.3+1.16.jar",
+            "url": "https://bendimester23.tk/assets/mods/fabric-api-0.30.3+1.16.jar",
+            "sha1": "214f12a8e25e2a8e00ee12eda8466f5dbf202b07"
         },
         {
             "name": "Fedora",
