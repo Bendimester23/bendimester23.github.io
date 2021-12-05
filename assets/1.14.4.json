@@ -1,5 +1,5 @@
 {
-  "id": "1.16.5",
+  "id": "1.18",
   "type": "release",
   "libraries": [
     {
@@ -394,9 +394,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar",
@@ -407,10 +407,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar",
@@ -421,9 +421,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-jemalloc:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.1/lwjgl-jemalloc-3.2.1.jar",
@@ -434,10 +434,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar",
@@ -448,9 +448,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-openal:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.1/lwjgl-openal-3.2.1.jar",
@@ -461,10 +461,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-openal:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar",
@@ -475,9 +475,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-opengl:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.1/lwjgl-opengl-3.2.1.jar",
@@ -488,10 +488,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-opengl:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar",
@@ -502,9 +502,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-glfw:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.1/lwjgl-glfw-3.2.1.jar",
@@ -515,10 +515,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-glfw:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar",
@@ -529,9 +529,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-stb:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.1/lwjgl-stb-3.2.1.jar",
@@ -542,10 +542,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-stb:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
@@ -647,9 +647,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -678,10 +678,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -711,9 +711,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-jemalloc:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -742,10 +742,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -775,9 +775,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-openal:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -806,10 +806,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-openal:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -839,9 +839,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-opengl:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -870,10 +870,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-opengl:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -903,9 +903,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-glfw:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -934,10 +934,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-glfw:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -967,9 +967,9 @@
     },
     {
       "name": "org.lwjgl:lwjgl-stb:3.2.1",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-macos"
       },
@@ -998,10 +998,10 @@
     },
     {
       "name": "org.lwjgl:lwjgl-stb:3.2.2",
-	  "onlyIn": [
-		"WIN",
-		"LINUX"
-	  ],
+      "onlyIn": [
+        "WIN",
+        "LINUX"
+      ],
       "natives": {
         "linux": "natives-linux",
         "windows": "natives-windows"
@@ -1065,9 +1065,9 @@
     },
     {
       "name": "ca.weblite:java-objc-bridge:1.0.0",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "natives": {
         "osx": "natives-osx"
       },
@@ -1091,9 +1091,9 @@
     },
     {
       "name": "ca.weblite:java-objc-bridge:1.0.0",
-	  "onlyIn": [
-		"OSX"
-	  ],
+      "onlyIn": [
+        "OSX"
+      ],
       "downloads": {
         "artifact": {
           "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0.jar",
