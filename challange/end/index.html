@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>GG!</h1>
+    <p>You did it. Now you should join <a id="invite">my Discord server!</a></p>
+    <script>
+        let check = null;
+        let something = null;
+
+        function checkFlag() {
+            let flag = localStorage.getItem("flag_3");
+            //FLAG{something};
+            let res = check(flag.split("").map(e => e.charCodeAt(0)).map((e, i) => e * i).reduce((a, b) => a + b));
+
+            return res == 1;
+        }
+
+        async function init() {
+            const { instance } = await WebAssembly.instantiateStreaming(fetch("../3/nothing.wasm"));
+            check = instance.exports.check;
+            something = instance.exports.something;
+
+            if (!checkFlag()) {
+                alert("Cheater!");
+                window.location.assign('../3/');
+            } else {
+                document.getElementById(`invite`).href = `https://discord.gg/dxz${something()}TRynv`;
+            }
+        }
+
+        init();
+    </script>
+</body>
+
+</html>

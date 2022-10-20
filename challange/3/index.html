@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challange #3</title>
+</head>
+<body>
+    <p>Real programmers use Assembly.</p>
+    <form id="form">
+        <input type="text" id="flag" placeholder="Enter flag">
+        <input type="submit" value="Check">
+    </form>
+
+    <script>
+        const magicNumbers = [0x31,0x6e,0x84,0xc8,0x1fe,0x90,0x21b,0xb0,0xd8,0x3ac,0x3f4,0x45c,0x4d3,0x10a,0x483,0x150,0x51d,0x1b0,0x24d,0x5f0,0x666,0x1b8,0x256,0x2b8,0x76c,0xa90,0x402];
+
+        function checkOldFlag() {
+            let flag = localStorage.getItem('flag_2');
+            if (!flag) return false;
+            if (flag.length != magicNumbers.length) return false;
+            for (let i = 0; i < magicNumbers.length; i++) {
+                const e = magicNumbers[i];
+                if (e/(i+1)+21 != flag.charCodeAt(i)) return false;
+            }
+            
+            return true;
+        }
+
+        if (!checkOldFlag()) {
+            alert("You cheated!");
+            window.location.assign('../2/')
+        }
+
+        const form = document.getElementById(`form`);
+        const input = document.getElementById('flag');
+
+        let check = null;
+
+        async function init() {
+            const { instance } = await WebAssembly.instantiateStreaming(fetch("./nothing.wasm"));
+			check = instance.exports.check;
+        }
+
+        init();
+
+        function checkFlag() {
+            let flag = input.value;
+            //FLAG{something};
+            let res = check(flag.split("").map(e=>e.charCodeAt(0)).map((e,i) => e*i).reduce((a,b) => a+b));
+
+            return res == 1;
+        }
+
+        form.onsubmit = (e) => {
+            e.preventDefault();
+
+            if (checkFlag()) {
+                localStorage.setItem('flag_3', input.value);
+                window.location.assign(`../end`);
+            } else {
+                alert('Wrong flag!')
+            }
+        }
+    </script>
+</body>
+</html>
