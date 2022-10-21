@@ -1218,7 +1218,7 @@
     "client": {
         "sha1": "055b30d860ead928cba3849ba920c88b6950b654",
         "size": 21644740,
-        "url": "https://piston-data.mojang.com/v1/objects/055b30d860ead928cba3849ba920c88b6950b654/client.jar"
+        "url": "http://localhost:8080/client/1.19.2.jar"
     },
     "assetIndex": {
         "id": "1.19",
