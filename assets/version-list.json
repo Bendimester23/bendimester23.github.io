@@ -1,0 +1,8 @@
+{
+  "versions": [{
+    "name": "Igen",
+    "id": "yes",
+    "url": "/assets/version.json",
+    "beta": false
+  }]
+}
