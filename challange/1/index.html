@@ -5,38 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challange #1</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    <p>Let's start with something easy:</p>
-    <form id="form">
-        <input type="text" id="flag" placeholder="Enter flag">
-        <input type="submit" value="Check">
-    </form>
-
-    <script>
-        const form = document.getElementById(`form`);
-        const input = document.getElementById('flag');
-
-        function checkFlag() {
-            let flag = input.value;
-            if (!flag.startsWith("FLAG{")) return false;
-            if (flag.charCodeAt(5) != 54) return false;
-            if (flag.charCodeAt(6) != 57) return false;
-            if (!flag.endsWith("};")) return false;
-            
-            return true;
-        }
-
-        form.onsubmit = (e) => {
-            e.preventDefault();
-
-            if (checkFlag()) {
-                localStorage.setItem('flag_1', input.value);
-                window.location.assign(`../2/#${input.value}`);
-            } else {
-                alert('Wrong flag!')
-            }
-        }
-    </script>
+    <div>
+        <p>Let's start with something easy:</p>
+        <form id="form">
+            <input type="text" id="flag" placeholder="Enter flag">
+            <input type="submit" value="Check">
+        </form>
+    </div>
 </body>
 </html>
