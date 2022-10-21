@@ -1,0 +1,79 @@
+:root{
+    --green: 67, 160, 71;
+    --dark: 25,25,25;
+
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: radial-gradient(rgb(var(--green)) 10%, rgb(var(--dark))  10%);
+    background-position: 0 0;
+    background-size: 50px 50px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+div{
+    background: rgba(0, 0, 0, .5);
+    color: rgb(var(--green));
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+form{
+    display: flex;
+    justify-content: center;
+    gap: .4rem;
+}
+#invite{
+    position: relative;
+    text-decoration: underline;
+}
+#invite::after{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgb(var(--green));
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform ease .8s;
+}
+#invite:hover::after, #invite:focus::after{
+    transform-origin: left;
+    transform: scaleX(1);
+
+}
+a{
+    text-align: center;
+    color: rgb(var(--green));
+}
+a[btn]{
+    background-color: rgba(var(--green),.1);
+    padding: 1rem;
+}
+a[btn]:hover, a[btn]:focus{
+    background-color: rgba(var(--green), .4);
+}
+a[btn]:active{
+    background-color: rgba(var(--green), .8);
+}
+input{
+    background: rgba(var(--dark), .4);
+    color:  rgb(var(--green));
+    border: 2px solid rgb(var(--green));
+    padding: .5rem;
+    border-radius: 5px;
+}
+input[type="submit"]:hover, input[type="submit"]:focus{
+    background: rgba(var(--green), .4);
+}
+input[type="submit"]:active{
+    background: rgba(var(--green), .8);
+}
