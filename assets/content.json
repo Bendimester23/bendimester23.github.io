@@ -143,6 +143,11 @@
       "file_name": "starlight-1.1.1+fabric.ae22326.jar",
       "url": "https://bendi.tk/assets/mods/starlight-1.1.1+fabric.ae22326.jar",
       "sha1": "de6fe932555604345477db89b59d59249909c640"
+    }, {
+      "name": "SkyVillage",
+      "file_name": "things-0.1-ALPHA.jar",
+      "url": "https://bendi.tk/assets/mods/things-0.1-ALPHA.jar",
+      "sha1": "18c0c49c9a37472bbd3a9e3a2318793a2b1f871c"
     }
   ]
 }
